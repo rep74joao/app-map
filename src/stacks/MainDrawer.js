@@ -5,7 +5,7 @@ import Home from '../screens/Home'
 
 const Drawer = createDrawerNavigator();
 
-import DrawerCustom from '../components/DrawerCustom';
+
 
 export default () => {
     return (
@@ -15,7 +15,7 @@ export default () => {
                 headerShown: true,
                 headerTitle: '',
                 headerStyle: {
-                    backgroundColor: '#F5F6FA',
+                    backgroundColor: 'rgba(255,255,255,0)',
                     shadowOpacity: 0,
                     elevation: 0
                 }
